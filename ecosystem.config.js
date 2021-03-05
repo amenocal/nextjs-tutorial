@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: 'aws-codedeploy',
+            name: 'alejandroblog-deployments',
             script: 'npx',
             args: 'serve -s build -l 3000 -n',
             interpreter: 'none',
