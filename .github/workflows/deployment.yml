@@ -38,7 +38,7 @@ jobs:
       matrix:
         python-version: [3.8]
         node-version: ["12.x"]
-        appname: ["alejandroblog-deployments"]
+        appname: ["alejandroblog"]
         deploy-group: ["dev"]
         s3-bucket: ["alejandroblog-deployments"]
         s3-filename: ["alejandroblog-deployments-${{ github.sha }}"]
